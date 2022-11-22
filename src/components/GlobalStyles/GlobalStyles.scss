@@ -1,0 +1,25 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+:root {
+    --primary: rgba(255, 59, 92, 1);
+
+    //MainLayout
+    --main-layout-header-height: 60px;
+    --main-layout-header-width: 1150px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+}
